@@ -1,0 +1,13 @@
+go 1.20
+
+use (
+	./api
+	./common
+	./vision
+	./vision-plugin-gateway-v1
+	./vision-plugin-graphql-v1
+	./vision-plugin-infra-v1
+	./vision-plugin-plugin-v1
+	./vision-plugin-project-v1
+	./vision-plugin-service-v1
+)
