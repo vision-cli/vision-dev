@@ -1,27 +1,36 @@
 [submodule "vision"]
 	path = vision
 	url = ../vision.git
+	branch = master
 [submodule "common"]
 	path = common
 	url = ../common.git
+	branch = master
 [submodule "api"]
 	path = api
 	url = ../api.git
+	branch = master
 [submodule "vision-plugin-gateway-v1"]
 	path = vision-plugin-gateway-v1
 	url = ../vision-plugin-gateway-v1.git
+	branch = master
 [submodule "vision-plugin-graphql-v1"]
 	path = vision-plugin-graphql-v1
 	url = ../vision-plugin-graphql-v1.git
+	branch = master
 [submodule "vision-plugin-infra-v1"]
 	path = vision-plugin-infra-v1
 	url = ../vision-plugin-infra-v1.git
+	branch = master
 [submodule "vision-plugin-plugin-v1"]
 	path = vision-plugin-plugin-v1
 	url = ../vision-plugin-plugin-v1.git
+	branch = master
 [submodule "vision-plugin-project-v1"]
 	path = vision-plugin-project-v1
 	url = ../vision-plugin-project-v1.git
+	branch = master
 [submodule "vision-plugin-service-v1"]
 	path = vision-plugin-service-v1
 	url = ../vision-plugin-service-v1.git
+	branch = master
