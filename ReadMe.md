@@ -22,3 +22,15 @@ already installed on the developers system.
 Any installed plugins that are not shadowed by internal plugins are still available as normal.
 
 The list of internal plugins is found in `vision/plugins/plugins_dev.go`.
+
+## Managing submodules
+
+The libraries, cli, and plugins are included as git submodules.
+Submodules don't always work as expected, and in particular `git submodule update` doesn't
+update the submodules but instead reverts them to the last version recorded in this `vision-dev`
+repository. Additionally, the submodules are left in a `detached head` state that makes it hard to
+push updates to the submodule repositories.
+
+To help with this, a `Makefile` is provided as a convenience, and running `make update-modules`
+will check out the `master` branch for each submodule and pull it to update to the latest commit of
+that branch on GitHub.
